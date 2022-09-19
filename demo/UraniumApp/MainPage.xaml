@@ -30,6 +30,8 @@
 
                     <validation:RequiredValidation />
                 </controls:PickerField>
+
+                <controls:SelectableText Text="This should be a selectable text. Try to tap or hold to select this text and copy easily." />
             </input:FormView>
 
             <!--<Image

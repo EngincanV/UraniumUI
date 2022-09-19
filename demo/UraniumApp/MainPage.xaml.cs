@@ -7,6 +7,11 @@ public partial class MainPage : UraniumContentPage
     public MainPage()
     {
         InitializeComponent();
+
+        //myEditor.HandlerChanged += (s, e) =>
+        //{
+        //    Console.WriteLine(myEditor.Handler.PlatformView.GetType());
+        //};
     }
 
     //private async void OnCounterClicked(object sender, EventArgs e)
